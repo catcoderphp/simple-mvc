@@ -1,27 +1,11 @@
 {
   "name": "catcoderphp/simple-mvc-php",
   "description":"Simple mvc php application with eloquent and twig",
-  "minimum-stability": "dev",  
-  "repositories": [
-    {
-      "type": "package",
-      "package": {
-        "name": "catcoderphp/simple-mvc",
-        "version": "dev-master",
-        "source": {
-          "url": "https://github.com/catcoderphp/simple-mvc.git",
-          "type": "git",
-          "reference": "master"
-        },
-        "autoload": {
-          "psr-0" : {
-            "catcoderphp/simple-mvc" : "app"
-          }
-        }
-      }
-    }
-  ],
+  "minimum-stability": "dev",
+  "type":"project",
+  "keywords": ["mvc", "framework", "basic", "project template"],
   "require": {
+    "php":">=5.4.0",
     "illuminate/database": "4.1.*",
     "twig/twig": "1.*",
     "filp/whoops": "~1.1",
