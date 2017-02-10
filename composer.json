@@ -1,37 +1,37 @@
 {
-    "repositories": [
-        {
-            "type": "package",
-            "package": {
-                "name": "catcoderphp/simple-mvc",
-                "version": "dev-master",
-                "source": {
-                    "url": "https://github.com/catcoderphp/simple-mvc.git",
-                    "type": "git",
-                    "reference": "master"
-                },
-                "autoload": {
-                    "psr-0" : {
-                        "catcoderphp/simple-mvc" : "app"
-                    }
-                }
-            }
+  "repositories": [
+    {
+      "type": "package",
+      "package": {
+        "name": "catcoderphp/simple-mvc",
+        "version": "dev-master",
+        "source": {
+          "url": "https://github.com/catcoderphp/simple-mvc.git",
+          "type": "git",
+          "reference": "master"
+        },
+        "autoload": {
+          "psr-0" : {
+            "catcoderphp/simple-mvc" : "app"
+          }
         }
-    ],
-    "require": {
-        "illuminate/database": "4.1.*",
-        "twig/twig": "1.*",
-        "filp/whoops": "~1.1",
-        "guzzlehttp/guzzle": "~6.0"
-    },
-    "autoload": {
-        "classmap": [
-            "app/controllers",
-			"app/models",
-            "app/core"
-		],
-        "files": [
-            "app/database.php"
-        ]
+      }
     }
+  ],
+  "require": {
+    "illuminate/database": "4.1.*",
+    "twig/twig": "1.*",
+    "filp/whoops": "~1.1",
+    "guzzlehttp/guzzle": "~6.0"
+  },
+  "autoload": {
+    "classmap": [
+      "app/controllers",
+      "app/models",
+      "app/core"
+    ],
+    "files": [
+      "app/database.php"
+    ]
+  }
 }
