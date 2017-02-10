@@ -1,4 +1,6 @@
 {
+  "name": "catcoderphp/simple-mvc",
+  "description":"Simple mvc php application with eloquent and twig",
   "repositories": [
     {
       "type": "package",
