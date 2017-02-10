@@ -1,5 +1,5 @@
 {
-  "name": "catcoderphp/simple-mvc",
+  "name": "catcoderphp/simple-mvc-php",
   "description":"Simple mvc php application with eloquent and twig",
   "repositories": [
     {
